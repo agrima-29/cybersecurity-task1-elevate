@@ -1,0 +1,38 @@
+# Nmap 7.94 scan initiated Mon May 26 19:53:17 2025 as: nmap -sS -oN syn_scan.txt 192.168.1.0/24
+Nmap scan report for local.airtelfiber.com (192.168.1.1)
+Host is up (0.040s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+5555/tcp open  freeciv
+MAC Address: B4:A7:C6:43:08:A0 (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.029s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: AC:5D:5C:89:52:8E (FN-Link Technology Limited)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.0018s latency).
+Not shown: 989 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+4443/tcp open  pharos
+4444/tcp open  krb524
+4446/tcp open  n1-fwp
+5357/tcp open  wsdapi
+5432/tcp open  postgresql
+
+# Nmap done at Mon May 26 19:53:35 2025 -- 256 IP addresses (3 hosts up) scanned in 17.33 seconds
